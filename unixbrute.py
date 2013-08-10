@@ -23,7 +23,7 @@ def testPass(dictFile,cryptPass):
         if (cryptWord == cryptPass):
             print "[+] Password found: " +str(word)
             return
-    print "[-] Password not found."
+    print "[-] Password not in dictionary."
     return
           
 def main():
