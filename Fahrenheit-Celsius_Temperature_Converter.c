@@ -6,12 +6,12 @@
 
 void Celsius(float fahrenheit)
 {
-	printf("%f.\n", CONVERSION_C * (fahrenheit - FREEZE_PT));
+	printf("%f.\n", CONVERSION_C * (fahrenheit - FREEZE_PT)); // convert from fahrenheit to celsius
 }
 
 void Fahrenheit(float celsius)
 {
-	printf("%f.\n", (CONVERSION_F * celsius) + FREEZE_PT);
+	printf("%f.\n", (CONVERSION_F * celsius) + FREEZE_PT); // convert from celsius to fahrenheit
 }
 
 int main(int argc, char *argv[])
